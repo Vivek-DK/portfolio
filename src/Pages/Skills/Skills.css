@@ -1,0 +1,78 @@
+.skillbar-sec {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  text-align: center;
+  padding: 2rem 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
+.skillbar-sec h2 {
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.skillbar-sec h2 span {
+  color: #6495ED;
+}
+
+.skillbar-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.skillbar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.skillbar-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: clamp(0.85rem, 2vw, 1rem);
+  font-weight: 500;
+}
+
+.skillbar-track {
+  width: 100%;
+  height: 13px;
+  background-color: var(--border-color);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.skillbar-fill {
+  height: 100%;
+  background-color: rgb(162, 224, 245);
+  border-radius: 5px;
+  transition: width 0.6s ease;
+}
+
+@media (max-width: 800px) {
+  .skillbar-sec {
+    padding: 1.5rem 1rem;
+  }
+
+  .skillbar-container {
+    gap: 1.2rem;
+  }
+
+  .skillbar-sec h2 {
+    font-size: 1.8rem;
+  }
+
+  .skillbar-info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
+  }
+}

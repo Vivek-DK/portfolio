@@ -1,0 +1,46 @@
+:root {
+  --bg: #0b1018ff;
+  --text-color: #f0f6fc;
+  --abt-text: #c9d1d9;
+  --card-hover-bg: rgba(255, 255, 255, 0.05);
+  --accent-color: #58a6ff;
+  --button-gradient: linear-gradient(125deg, #58a6ff, #1f6feb);
+  --glow-border: linear-gradient(45deg, #58a6ff, #1f6feb, #58a6ff, #1f6feb);
+  --nav-text-color:#f9f9f9;
+  --info-bg:#11161d;
+  --info-shadow:rgba(0, 0, 0, 0.4);
+  --contact-bg:#10151d;
+  --contact-card:#1a2433ff;
+  --experience-bg:#10151d;
+  --ex-text:rgb(212, 210, 210);
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body{
+  background: var(--bg);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body.light {
+  --bg: #ffffffff;
+  --text-color: #20252cd7;
+  --abt-text: #333;
+  --card-hover-bg: rgba(0, 0, 0, 0.05);
+  --accent-color: #1f6feb;
+  --button-gradient: linear-gradient(125deg, #1f6feb, #58a6ff);
+  --glow-border: linear-gradient(45deg, #1f6feb, #58a6ff, #1f6feb, #58a6ff);
+  --nav-text-color:rgba(109, 106, 106, 0.75);
+  --info-bg:#f5f5f5;
+  --info-shadow:rgba(189, 188, 188, 0.4);
+  --contact-bg:#f0f0f0;
+  --contact-card:#e4e1e1;
+  --experience-bg:#ffffff;
+  --ex-text: #444;
+}
