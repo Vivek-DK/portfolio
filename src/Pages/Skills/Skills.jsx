@@ -9,7 +9,6 @@ const skillData = [
   { name: 'HTML5', value: 85 },
   { name: 'CSS3', value: 80 },
   { name: 'Python', value: 75 },
-  { name: 'C', value: 75 },
   { name: 'My Sql', value: 80 },
   { name: 'MongoDB', value: 80 },
   { name: 'Git/Github', value: 100 },
