@@ -125,7 +125,7 @@ const Navbar = () => {
               </>
             )}
           </button>
-          <a href="/Resume.pdf" download>
+          <a href="/vivek_dk_resume (2).pdf" download>
             <span><FontAwesomeIcon icon={faDownload} /></span>
             Resume
           </a>
