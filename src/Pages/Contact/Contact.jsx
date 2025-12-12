@@ -52,7 +52,7 @@ const Contact = () => {
         <div className="contact-left" ref={leftRef}>
           {[
             { icon: faPhone, text: '7348862962', delay: 0.1 },
-            { icon: faEnvelope, text: 'vivek.krishnamurthy.d@gmail.com', delay: 0.2 },
+            { icon: faEnvelope, text: 'vivek.dkrishnamurthy@gmail.com', delay: 0.2 },
             { icon: faMapMarked, text: 'Bengaluru North, India', delay: 0.3 },
           ].map((item, i) => (
             <motion.div
