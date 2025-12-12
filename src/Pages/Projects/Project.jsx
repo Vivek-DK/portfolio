@@ -24,7 +24,8 @@ const Project = () => {
     {
       image: skin,
       name: 'Anjelic',
-      status: 'Ongoing',
+      Git: "https://github.com/Vivek-DK/angelic",
+      Live: "https://angelic-viv.vercel.app/",
       about: 'A website for analyzing skin tone, face shape and providing personalized color, outfit and accessories suggestions along with shopping links.',
     },
   ];
