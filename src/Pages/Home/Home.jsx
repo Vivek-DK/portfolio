@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import './Home.css';
 import { useNavigate } from 'react-router-dom';
-import vivek from '../../assets/vivek.png';
+import vivek from '../../assets/propic1.png';
 import About from '../About/About';
 import Project from '../Projects/Project';
 import SkillBar from '../Skills/Skills';
