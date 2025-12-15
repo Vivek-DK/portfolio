@@ -30,12 +30,8 @@ body {
 .profile-wrapper {
   position: relative;
   overflow: hidden; 
-  border-right: 1px solid var(--accent-color);
-  border-left: 1px solid var(--accent-color);
-  border-top-left-radius: 50%;
-  border-top-right-radius: 50%;
-  width: clamp(220px, 40vw, 500px);
-  height: clamp(220px, 40vw, 500px);
+  width: clamp(220px, 40vw, 600px);
+  height: clamp(220px, 40vw, 600px);
   animation: float 4s ease-in-out infinite;
 }
 
