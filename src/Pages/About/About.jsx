@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Tilt from 'react-parallax-tilt';
-import vivek from '../../assets/viv2.JPG';
+import vivek from '../../assets/propic1.png';
 import './About.css';
 
 const fadeIn = (direction = 'up', delay = 0) => {
