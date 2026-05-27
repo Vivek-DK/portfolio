@@ -1,103 +1,285 @@
-.projects-section {
-  background-color: var(--bg-color);
-  padding: 2rem 1rem;
-  color: var(--text-color);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* =========================
+   PROJECT SECTION
+========================= */
+
+.portfolio-projects-section {
+  width: 100%;
+  padding: 4rem 1rem;
+  background: var(--bg);
+  overflow: hidden;
 }
 
-.title {
-  font-size: clamp(1.8rem, 4vw, 2.5rem);
-  font-weight: bold;
+/* =========================
+   TITLE
+========================= */
+
+.portfolio-projects-title {
+  font-size: clamp(2rem, 5vw, 3rem);
+
+  font-weight: 700;
+
   text-transform: uppercase;
-  margin-bottom: 2rem;
+
   text-align: center;
+
+  margin-bottom: 3rem;
+
+  color: var(--text-color);
 }
 
-.title span {
+.portfolio-projects-title span {
   color: #6495ED;
 }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: center;
-  padding-bottom: 1rem;
-}
+/* =========================
+   GRID
+========================= */
 
-.project-tile {
-  flex: 1 1 300px;
-  max-width: 500px;
-  background: var(--bg-color);
-  border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease;
-}
-
-.project-tile:hover {
-  transform: translateY(-5px);
-  background: var(--card-hover-bg);
-}
-
-.image img {
+.portfolio-projects-grid {
   width: 100%;
-  height: 250px;
+
+  max-width: 1500px;
+
+  margin: auto;
+
+  display: grid;
+
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  gap: 2rem;
+}
+
+/* =========================
+   CARD
+========================= */
+
+.portfolio-project-card {
+  width: 100%;
+
+  background: rgba(255, 255, 255, 0.03);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  border-radius: 22px;
+
+  overflow: hidden;
+
+  backdrop-filter: blur(14px);
+
+  transition: all 0.3s ease;
+
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.portfolio-project-card:hover {
+  transform: translateY(-6px);
+
+  background: rgba(255, 255, 255, 0.05);
+
+  border-color: rgba(88, 166, 255, 0.2);
+
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.4),
+    0 0 25px rgba(88, 166, 255, 0.08);
+}
+
+/* =========================
+   IMAGE
+========================= */
+
+.portfolio-project-image-wrapper {
+  width: 100%;
+}
+
+.portfolio-project-image {
+  width: 100%;
+
+  height: 240px;
+
   object-fit: cover;
-  border-top-left-radius: 16px;
-  border-top-right-radius: 16px;
+
+  display: block;
 }
 
-.project-description {
-  padding: 1rem;
+/* =========================
+   CONTENT
+========================= */
+
+.portfolio-project-content {
+  padding: 1.3rem;
 }
 
-.project-description h3 {
-  font-size: clamp(1rem, 2vw, 1.2rem);
-  margin-bottom: 0.5rem;
-  font-weight: 500;
-  color: var(--text-color);
-}
+.portfolio-project-name {
+  font-size: 1.2rem;
 
-.project-description p {
-  font-size: clamp(0.85rem, 2vw, 1rem);
-  color: var(--text-color);
+  font-weight: 600;
+
   margin-bottom: 0.8rem;
+
+  color: var(--text-color);
 }
 
-.project-links {
+.portfolio-project-summary {
+  font-size: 0.95rem;
+
+  line-height: 1.8;
+
+  color: #d7d7d7;
+
+  margin-bottom: 1.5rem;
+}
+
+/* =========================
+   BLOCKS
+========================= */
+
+.portfolio-project-block {
+  margin-bottom: 1.4rem;
+}
+
+.portfolio-project-block h4 {
+  font-size: 1rem;
+
+  margin-bottom: 0.7rem;
+
+  color: #ffffff;
+}
+
+.portfolio-project-block ul {
+  padding-left: 1rem;
+}
+
+.portfolio-project-block li {
+  margin-bottom: 0.5rem;
+
+  color: #cfcfcf;
+
+  font-size: 0.9rem;
+
+  line-height: 1.6;
+}
+
+/* =========================
+   TECH STACK
+========================= */
+
+.portfolio-project-tech-list {
   display: flex;
+
   flex-wrap: wrap;
-  gap: 15px;
+
+  gap: 10px;
+}
+
+.portfolio-project-tech-badge {
+  background: rgba(255, 255, 255, 0.08);
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  padding: 6px 12px;
+
+  border-radius: 30px;
+
+  font-size: 0.78rem;
+
+  color: #e5e5e5;
+}
+
+/* =========================
+   LINKS
+========================= */
+
+.portfolio-project-links {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 14px;
+
   align-items: center;
+
+  margin-top: 1rem;
 }
 
-.project-links a {
-  color: #00bcd4;
-  font-size: 0.85rem;
+.portfolio-project-link {
+  color: #58a6ff;
+
+  font-size: 0.9rem;
+
   text-decoration: none;
-  cursor: pointer;
+
+  transition: 0.2s ease;
 }
 
-.project-links a:hover {
+.portfolio-project-link:hover {
   text-decoration: underline;
 }
 
-.project-links p {
-  margin-top: 0;
-  color: #00bcd4;
-}
+/* =========================
+   TABLET
+========================= */
 
-@media (max-width: 600px) {
-  .project-description {
-    padding: 0.8rem;
+@media (max-width: 1100px) {
+
+  .portfolio-projects-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .image img {
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+  .portfolio-projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-project-content {
+    padding: 1rem;
+  }
+
+  .portfolio-project-image {
+    height: 220px;
+  }
+
+  .portfolio-project-links {
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+
+}
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 480px) {
+
+  .portfolio-projects-section {
+    padding: 2.5rem 0.8rem;
+  }
+
+  .portfolio-projects-title {
+    font-size: 2rem;
+  }
+
+  .portfolio-project-image {
     height: 200px;
   }
 
-  .project-links {
-    flex-direction: column;
-    align-items: flex-start;
+  .portfolio-project-summary {
+    font-size: 0.9rem;
   }
+
+  .portfolio-project-tech-badge {
+    font-size: 0.72rem;
+
+    padding: 5px 10px;
+  }
+
 }

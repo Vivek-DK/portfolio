@@ -3,18 +3,34 @@ import { motion } from 'framer-motion';
 import './Skills.css';
 
 const skillData = [
-  { name: 'JavaScript', value: 90 },
-  { name: 'React.js', value: 80 },
-  { name: 'Node.js', value: 70 },
-  { name: 'HTML5', value: 85 },
-  { name: 'CSS3', value: 80 },
-  { name: 'Python', value: 75 },
-  { name: 'C', value: 75 },
-  { name: 'My Sql', value: 80 },
-  { name: 'MongoDB', value: 80 },
-  { name: 'Git/Github', value: 100 },
-  { name: 'Google Colab', value: 90 },
-  { name: 'Netlify', value: 100 },
+
+  // Frontend
+  { name: 'React.js', value: 85 },
+  { name: 'TypeScript', value: 75 },
+  { name: 'JavaScript', value: 88 },
+  { name: 'HTML5', value: 90 },
+  { name: 'CSS3', value: 82 },
+  { name: 'Tailwind CSS', value: 80 },
+
+  // Backend
+  { name: 'Node.js', value: 75 },
+  { name: 'Express.js', value: 72 },
+
+  // Database
+  { name: 'MongoDB', value: 78 },
+  { name: 'MySQL', value: 74 },
+
+  // Programming Languages
+  { name: 'Python', value: 76 },
+  { name: 'C', value: 70 },
+
+  // Tools & Platforms
+  { name: 'Git & GitHub', value: 82 },
+  { name: 'Postman', value: 80 },
+  { name: 'Vercel', value: 85 },
+  { name: 'Netlify', value: 82 },
+  { name: 'Google Colab', value: 78 },
+
 ];
 
 const barVariants = {

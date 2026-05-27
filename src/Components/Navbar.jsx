@@ -7,7 +7,6 @@ import { motion } from 'framer-motion';
 
 const Navbar = () => {
   const [active, setActive] = useState(localStorage.getItem('index') || 0);
-  const [light, setLight] = useState(() => localStorage.getItem('theme') === 'light');
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -77,13 +76,6 @@ const Navbar = () => {
     }
   }, [location]);
 
-  useEffect(() => {
-    const theme = light ? 'light' : 'dark';
-    document.body.classList.remove('light', 'dark');
-    document.body.classList.add(theme);
-    localStorage.setItem('theme', theme);
-  }, [light]);
-
   return (
     <>
       <motion.div 
@@ -112,19 +104,6 @@ const Navbar = () => {
         </div>
 
         <div className="left">
-          <button onClick={() => setLight(prev => !prev)}>
-            {light ? (
-              <>
-                <span><FontAwesomeIcon icon={faMoon} /></span>
-                Dark
-              </>
-            ) : (
-              <>
-                <span><FontAwesomeIcon icon={faLightbulb} /></span>
-                Light
-              </>
-            )}
-          </button>
           <a href="/Resume.pdf" download>
             <span><FontAwesomeIcon icon={faDownload} /></span>
             Resume
