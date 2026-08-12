@@ -1,4 +1,4 @@
-# 🌐 Personal Developer Portfolio
+# 🌐 MY Portfolio
 
 A modern, responsive developer portfolio built using **React.js** to showcase projects, skills, experience, and contact information.
 
@@ -9,10 +9,10 @@ This portfolio highlights my work as a **Full Stack Web Developer** and demonstr
 ## 🚀 Live Demo
 
 **Portfolio Website**  
-[https://your-portfolio-link.vercel.app](https://your-portfolio-link.vercel.app)
+[Live Link](https://vivekdk-portfolio.vercel.app/)
 
 **GitHub Repository**  
-[https://github.com/Vivek-DK/portfolio](https://github.com/Vivek-DK/portfolio)
+[Git Hub Link](https://github.com/Vivek-DK/portfolio)
 
 ---
 
