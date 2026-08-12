@@ -16,22 +16,6 @@ This portfolio highlights my work as a **Full Stack Web Developer** and demonstr
 
 ---
 
-## 📸 Screenshots
-
-### Home Section
-
-![Home Section](screenshots/home.png)
-
-### Projects Section
-
-![Projects Section](screenshots/projects.png)
-
-### Contact Section
-
-![Contact Section](screenshots/contact.png)
-
----
-
 ## 🧰 Tech Stack
 
 ### Frontend
