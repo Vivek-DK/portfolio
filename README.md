@@ -9,10 +9,10 @@ This portfolio highlights my work as a **Full Stack Web Developer** and demonstr
 ## 🚀 Live Demo
 
 **Portfolio Website**  
-[Live Link](https://vivekdk-portfolio.vercel.app/)
+[https://vivekdk-portfolio.vercel.app/](https://vivekdk-portfolio.vercel.app/)
 
 **GitHub Repository**  
-[Git Hub Link](https://github.com/Vivek-DK/portfolio)
+[https://github.com/Vivek-DK/portfolio](https://github.com/Vivek-DK/portfolio)
 
 ---
 
