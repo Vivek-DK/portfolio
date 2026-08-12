@@ -61,7 +61,6 @@ PORTFOLIO/
 │   └── Resume.pdf
 │
 ├── src/
-│   │
 │   ├── assets/
 │   │
 │   ├── Components/
@@ -87,7 +86,6 @@ PORTFOLIO/
 ├── vite.config.js
 ├── eslint.config.js
 └── README.md
-
 ---
 
 # Project Sections
@@ -203,9 +201,3 @@ LinkedIn
 # License
 
 This project is licensed under the MIT License.
-
----
-
-✅ This README matches **your exact folder structure** from the screenshots.
-
-If you want, I can also show you **3 upgrades that will make this portfolio look like a senior developer portfolio instead of a student one** (very important if you want recruiters to notice it).
