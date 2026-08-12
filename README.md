@@ -210,7 +210,7 @@ Full Stack Web Developer
 
 ### LinkedIn
 
-Add your LinkedIn profile URL here.
+[https://github.com/Vivek-DK](https://www.linkedin.com/in/vivekdk1310/)
 
 ---
 
